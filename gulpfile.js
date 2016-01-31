@@ -70,4 +70,4 @@ gulp.task('runServer', shell.task([
 ]))
 
 // Default Task
-gulp.task('default', ['scripts', 'less', 'vendorCSS', 'watch', 'runServer']);
+gulp.task('default', ['scripts', 'less', 'vendorCSS', 'watch']);
